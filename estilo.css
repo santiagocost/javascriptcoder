@@ -1,6 +1,7 @@
-.imagen{
-    max-width:100%;
-}
+* {
+    margin: 0;
+    padding: 0; }
+
 
 a{
     cursor:pointer;
@@ -25,8 +26,7 @@ body{
     background-color: #E3D8D6;
 }
 .parrafo{
-    font-weight: 900;
-    font-style: italic;
+    font-weight: 3000;
 }
 #precioTotal{
     margin:0;
@@ -37,4 +37,8 @@ a{
 }
 .boton{
     opacity:0;
+}
+img.conso {
+    width: 10%;
+    height: 10%;
 }

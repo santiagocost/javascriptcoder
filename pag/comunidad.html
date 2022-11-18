@@ -16,7 +16,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
-    <link rel="stylesheet" href="estilo.css" />
+    <link rel="stylesheet" href="/estilo.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,12 +33,12 @@
       src="https://kit.fontawesome.com/3d01b0180f.js"
       crossorigin="anonymous"
     ></script>
-    <title>Endgames - Tienda</title>
+    <title>Endgames - Contacto</title>
   </head>
-  <body class="conteiner-fluid">
+  <body>
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Endgames</a>
+        <a class="navbar-brand" href="../index.html">Endgames</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -56,75 +56,93 @@
               <a
                 class="nav-link active"
                 aria-current="page"
-                href="pag/novedades.html"
+                href="../pag/novedades.html"
                 >Novedades</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pag/comunidad.html">Comunidad</a>
+              <a class="nav-link" href="../pag/comunidad.html">Comunidad</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <header>
+    <header class="encabezado">
       <nav class="navbar navbar-light bg-dark min-vw-100">
-        <h2 class="p-3 text-white">Endgames - Tienda</h2>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a
-              class="nav-link text-white"
-              data-bs-toggle="modal"
-              data-bs-target="#modal"
-            >
-              <i class="bi bi-cart mx-5" id="carritoContenedor">0</i>
-            </a>
-          </li>
-        </ul>
+        <h2 class="p-3 text-white">Endgames - Comunidad</h2>
       </nav>
     </header>
-    <main>
-      <div class="row mt-5" id="contenedor"></div>
-    </main>
-
-    <div class="container-xl">
-      <div class="modal" tabindex="-1" role="dialog" id="modal">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Carrito</h5>
-              <button
-                type="button"
-                class="close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body"></div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" id="vaciarCarrito">
-                Vaciar carrito
-              </button>
-              <button type="button" id="procesarCompra" class="btn btn-primary">
-                Continuar compra
-              </button>
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Cerrar
-              </button>
-
-              <span>Precio total:</span>
-              <p class="text-center" id="precioTotal"></p>
-            </div>
+    <div
+      style="text-align: center !important; margin-left: 20%; margin-right: 20%"
+    >
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Correo Electrónico</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            Recuerda no compartir tus contraseñas con nadie.
           </div>
         </div>
-      </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >Contraseña</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Conectarme</button>
+      </form>
     </div>
+
+    <section>
+      <h3 class="text-center2">Temas</h3>
+      <div>
+        <div style="text-align: left">
+          <span>
+            <img class="conso" src="../img/icon_xbox1.png" alt="" />
+            <span>
+              Comunidad dedicada a los amantes de las consolas de
+              Microsoft.</span
+            >
+          </span>
+        </div>
+        <div style="text-align: left">
+          <span>
+            <img class="conso" src="../img/icon_nint1.png" alt="" />
+            <span> Comunidad dedicada a los nintenderos.</span>
+          </span>
+        </div>
+        <div style="text-align: left">
+          <span>
+            <img class="conso" src="../img/icon_steam1.png" alt="" />
+            <span> Comunidad realizada para los pc gamers.</span>
+          </span>
+        </div>
+        <div style="text-align: left">
+          <span>
+            <img class="conso" src="../img/icon_ps.png" alt="" />
+            <span>
+              Comunidad dedicada para los usuarios de las consolas de Sony.
+            </span>
+          </span>
+        </div>
+      </div>
+    </section>
+
     <footer class="bg-dark text-center text-white">
       <div class="footer-content"></div>
       <!-- Grid container -->
@@ -181,9 +199,6 @@
       </div>
       <!-- Copyright -->
     </footer>
-
-    <script src="main.js"></script>
-    <script src="bootstrap.bundle.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
