@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+      "nombre": "God of War Ragnarok",
+      "cantidad": 1,
+      "desc": "Secuela nórdica del fantasma de Esparta",
+      "precio": 80,
+      "img": "img/gow.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Pokémon Escarlata",
+      "cantidad": 1,
+      "desc": "Nueva aventura del extenso mundo Pokémon",
+      "precio": 90,
+      "img": "img/pkmnes.png"
+    },
+    {
+      "id": 3,
+      "nombre": "Pokémon Púrpura",
+      "cantidad": 1,
+      "desc": "Nueva aventura del extenso mundo Pokémon",
+      "precio": 90,
+      "img": "img/pkmnv.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Harry Potter Hogwarts Legacy",
+      "cantidad": 1,
+      "desc": "Vive la experiencia de ser un mago y adentráte a lo más profundo de Hogwarts",
+      "precio": 80,
+      "img": "img/harrypo.webp"
+    },
+    {
+        "id": 5,
+        "nombre": "The Callisto Protocol",
+        "cantidad": 1,
+        "desc": "¿Dead Space? Mejorado",
+        "precio": 80,
+        "img": "img/callisto.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Fifa 23",
+        "cantidad": 1,
+        "desc": "El mismo que el 22 pero con otro número",
+        "precio": 60,
+        "img": "img/fifa23.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Horizon Forbidden West",
+        "cantidad": 1,
+        "desc": "Mejores gráficos, más robots",
+        "precio": 70,
+        "img": "img/horizon2.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Resident Evil 4 Remake",
+        "cantidad": 1,
+        "desc": "Difícil superar el original",
+        "precio": 80,
+        "img": "img/resident4.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Splatoon 3",
+        "cantidad": 1,
+        "desc": "Pintamos toda la casa",
+        "precio": 70,
+        "img": "img/splatoon3.jpg"
+    },
+    {
+        "id": 10,
+      "nombre": "Xenoblade Chronicles 3",
+      "cantidad": 1,
+      "desc": "Juego de rol y aventuras",
+      "precio": 70,
+      "img": "img/xenoblade3.jpg"
+    }
+  ]
